@@ -1,0 +1,25 @@
+body {
+  width: 300px;
+  height: 200px;
+}
+
+.container {
+  padding: 10px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.option > .radio {
+  margin-right: 20px;
+  cursor: pointer;
+}

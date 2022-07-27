@@ -1,0 +1,5 @@
+{
+  "appName": { "message": "Chrome插件基础demo" },
+  "appDescription": { "message": "一款带你十分钟入门Chrome插件开发的基础demo" },
+  "helloWorld": { "message": "Hello World" }
+}

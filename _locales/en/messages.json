@@ -1,0 +1,5 @@
+{
+  "appName": { "message": "Chrome Extension basic demo" },
+  "appDescription": { "message": "A basic demo that takes you 10 minutes to get started with Chrome Extension development" },
+  "helloWorld": { "message": "Hello World" }
+}

@@ -1,0 +1,66 @@
+body {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hello {
+  font-size: 14px;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.logList {
+  width: 400px;
+  height: 300px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 6px 20px;
+  border: 1px solid #666;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #444;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.log {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+}
+
+.log > .dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #333;
+  margin-right: 6px;
+ }
+
+.log > p {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.log > .btn {
+  display: flex;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.log > .btn > button {
+  cursor: pointer;
+}
